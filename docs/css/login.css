@@ -38,8 +38,8 @@ html, body {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 2em;
-	margin: 2% 2% 0px 2%; /*top-rigtt-bottom-left*/
-	padding: 2% 0px 2% 0px; /*top-rigtt-bottom-left*/
+	margin: 2% 2% 2% 2%; /*top-rigtt-bottom-left*/
+	padding: 2% 3% 2% 3%; /*top-rigtt-bottom-left*/
 	cursor: pointer;
 	border-radius: 8px;
 	font-family: Verdana, Geneva, sans-serif;
@@ -54,8 +54,8 @@ html, body {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 2em;
-	margin: 2% 2% 0px 2%; /*top-rigtt-bottom-left*/
-	padding: 2% 0px 2% 0px; /*top-rigtt-bottom-left*/
+	margin: 2% 2% 2% 2%; /*top-rigtt-bottom-left*/
+	padding: 2% 3% 2% 3%; /*top-rigtt-bottom-left*/
 	cursor: pointer;
 	border-radius: 8px;
 	font-family: Verdana, Geneva, sans-serif;
