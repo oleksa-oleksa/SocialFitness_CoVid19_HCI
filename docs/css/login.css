@@ -19,13 +19,13 @@ html, body {
 
 .inputField {
 	width: 90%;
-	padding: 20px 0px 20px 20px; /*top-rigtt-bottom-left*/
+	padding: 2% 0px 2% 2%; /*top-rigtt-bottom-left*/
 	margin: 10px 0px 10px 0px; /*top-rigtt-bottom-left*/
 	display: inline-block;
 	border: 1px solid #ccc;
 	border-radius: 12px;
 	box-sizing: border-box;
-	font-size: 26px;
+	font-size: 2em;
 }
 
 
@@ -34,12 +34,12 @@ html, body {
 	background-color: #e74c3c;
 	border: 3px solid #e74c3c;
 	color: white;
-	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 26px;
-	margin: 20px 20px 0px 20px; /*top-rigtt-bottom-left*/
+	font-size: 2em;
+	margin: 2% 2% 0px 2%; /*top-rigtt-bottom-left*/
+	padding: 2% 0px 2% 0px; /*top-rigtt-bottom-left*/
 	cursor: pointer;
 	border-radius: 8px;
 	font-family: Verdana, Geneva, sans-serif;
@@ -50,12 +50,12 @@ html, body {
 	background-color: white;
 	border: 3px solid #e74c3c;
 	color: #e74c3c;
-	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 26px;
-	margin: 20px 20px 0px 20px; /*top-rigtt-bottom-left*/
+	font-size: 2em;
+	margin: 2% 2% 0px 2%; /*top-rigtt-bottom-left*/
+	padding: 2% 0px 2% 0px; /*top-rigtt-bottom-left*/
 	cursor: pointer;
 	border-radius: 8px;
 	font-family: Verdana, Geneva, sans-serif;
