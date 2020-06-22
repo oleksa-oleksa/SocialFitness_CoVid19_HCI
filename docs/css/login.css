@@ -30,14 +30,14 @@ html, body {
 
 
 .buttonPrimary {
-	width: 10%;
+	width: 20%;
 	background-color: #e74c3c;
 	border: 3px solid #e74c3c;
 	color: white;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 2em;
+	font-size: 3em;
 	margin: 2% 2% 2% 2%; /*top-rigtt-bottom-left*/
 	padding: 2% 3% 2% 3%; /*top-rigtt-bottom-left*/
 	cursor: pointer;
@@ -46,14 +46,14 @@ html, body {
 }
 
 .buttonSecondary {
-	width: 10%;
+	width: 20%;
 	background-color: white;
 	border: 3px solid #e74c3c;
 	color: #e74c3c;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 2em;
+	font-size: 3em;
 	margin: 2% 2% 2% 2%; /*top-rigtt-bottom-left*/
 	padding: 2% 3% 2% 3%; /*top-rigtt-bottom-left*/
 	cursor: pointer;
@@ -63,7 +63,7 @@ html, body {
 
 
 .logo {
-	width: 20%;
+	width: 30%;
 	padding: 0px 0px 0px 0px; /*top-rigtt-bottom-left*/
 	margin: 0px 0px 100px 0px; /*top-rigtt-bottom-left*/
 }
