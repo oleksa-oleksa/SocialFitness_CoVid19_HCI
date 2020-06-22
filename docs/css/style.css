@@ -1,0 +1,26 @@
+body{
+	margin: 0px;
+	color: #333333;
+	background-color: #f0f4f7;
+}
+
+.courseThumbnailImage{
+	
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 90%;
+	alignment: center;
+	border-radius: 18px;
+	padding: 0px 0px 0px 0px; /*top-rigtt-bottom-left*/
+}
+
+.courseThumbnailBox {
+	text-align: center;
+	padding: 0px 0px 50px 0px; /*top-rigtt-bottom-left*/
+}
+
+.courseTitle{
+	font-family: Verdana, Geneva, sans-serif;
+	/*font-weight: bold;*/
+	font-size: 46px;
+	padding: 0px 0px 0px 10%; 
+}
