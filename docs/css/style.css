@@ -71,3 +71,17 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+#avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    min-height: 32px;
+    color: #3C4858;
+    font-weight: 700;
+}
