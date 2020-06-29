@@ -1,11 +1,14 @@
 .flex-wrapper {
   display: flex;
   flex-flow: row nowrap;
+  
 }
 
 .single-chart {
-  width: 33%;
+  width: 100%;
   justify-content: space-around ;
+  text-align: center;
+  display: inline-block;
 }
 
 .circular-chart {
