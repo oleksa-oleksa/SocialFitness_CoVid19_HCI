@@ -8,7 +8,7 @@ body{
 	
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	width: 90%;
-	alignment: center;
+	align-content: center;
 	border-radius: 18px;
 	padding: 0px 0px 0px 0px; /*top-rigtt-bottom-left*/
 }
@@ -70,4 +70,18 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    min-height: 32px;
+    color: #3C4858;
+    font-weight: 700;
 }

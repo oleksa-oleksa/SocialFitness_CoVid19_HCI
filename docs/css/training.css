@@ -1,0 +1,47 @@
+.page-title {
+	font-family: Verdana, Geneva, sans-serif;
+	/*font-weight: bold;*/
+	font-size: 64px;
+	padding: 40px 0px 0px 0px;  /*top-rigtt-bottom-left*/
+	color: red;
+}
+
+
+.trainer-video-view{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+	width: 90%;
+	align-content: center;
+	border-radius: 5px;
+	margin: 50px 0px 0px 0px; /*top-rigtt-bottom-left*/
+	padding: 0px 0px 0px 0px; /*top-rigtt-bottom-left*/
+}
+
+
+.in-training-button-mic {
+	text-align: center;
+	margin: 0px;
+	position: fixed;
+	bottom: 50px;
+	left: 15%;
+	height: 200px;
+}
+
+.in-training-button-cam {
+	text-align: center;
+	margin: 0px;
+	position: fixed;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -100px;
+	height: 200px;
+}
+
+
+.in-training-button-x {
+	text-align: center;
+	margin: 0px;
+	position: fixed;
+	bottom: 50px;
+	right: 15%;
+	height: 200px;
+}
