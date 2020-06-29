@@ -3,12 +3,16 @@
   flex-flow: row nowrap;
   text-align: center;
   display: inline-block;
+  display: block;
+  margin: auto;
   
 }
 
 .single-chart {
   width: 100%;
   justify-content: space-around ;
+  display: block;
+  margin: auto;
   text-align: center;
   display: inline-block;
 }
