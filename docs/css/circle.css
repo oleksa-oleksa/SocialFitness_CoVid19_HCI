@@ -1,6 +1,8 @@
 .flex-wrapper {
   display: flex;
   flex-flow: row nowrap;
+  text-align: center;
+  display: inline-block;
   
 }
 
