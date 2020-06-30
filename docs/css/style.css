@@ -22,14 +22,14 @@ body{
 .courseTitle{
 	font-family: Verdana, Geneva, sans-serif;
 	/*font-weight: bold;*/
-	font-size: 46px;
+	font-size: 6vw;
 	padding: 0px 0px 0px 10%; 
 }
 
 .courseThumbnailText{
 	font-family: Verdana, Geneva, sans-serif;
 	/*font-weight: bold;*/
-	font-size: 30px;
+	font-size: 4vw;
 	text-align: left;
 	padding: 0px 0px 0px 5%;  /*top-rigtt-bottom-left*/
 	color: white;

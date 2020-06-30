@@ -23,7 +23,7 @@
 	position: fixed;
 	bottom: 50px;
 	left: 15%;
-	height: 200px;
+	height: 20vw;
 }
 
 .in-training-button-cam {
@@ -32,8 +32,8 @@
 	position: fixed;
 	bottom: 50px;
 	left: 50%;
-	margin-left: -100px;
-	height: 200px;
+	margin-left: -10vw;
+	height: 20vw;
 }
 
 
@@ -43,5 +43,5 @@
 	position: fixed;
 	bottom: 50px;
 	right: 15%;
-	height: 200px;
+	height: 20vw;
 }
