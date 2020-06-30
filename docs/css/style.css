@@ -99,6 +99,26 @@ body{
   margin-right: 2px;
 }
 
+#friends_list_page {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-left: 30px;
+  margin-right: 10px;
+  vertical-align: middle
+ 
+}
+
+#friends_list_online_page {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #4CC790;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+
 .title {
     margin-top: 30px;
     margin-bottom: 25px;
@@ -106,3 +126,20 @@ body{
     color: #3C4858;
     font-weight: 700;
 }
+
+.title_friends_list {
+    padding-left: 30px;
+    min-height: 32px;
+    color: #3C4858;
+    font-size: 38px;  
+    font-weight: 700;
+    vertical-align: middle;
+    text-align: left;
+
+}
+
+
+input.largerCheckbox { 
+            width: 40px; 
+            height: 40px; 
+        } 
