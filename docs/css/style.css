@@ -127,6 +127,10 @@ body{
   margin-right: 2px;
 }
 
+#inner {
+  width: 50%;
+  margin: 0 auto;
+}
 
 .title {
     margin-top: 30px;
