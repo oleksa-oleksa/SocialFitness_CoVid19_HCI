@@ -2,14 +2,15 @@
 	background-color: #FFFFFF;
 	border: none;
 	color: #929292;
-	padding: 15px 32px;
+	padding: 0px 0px 0px 0px; /*top-rigtt-bottom-left*/
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 36px;
-	margin: 4px 2px;
+	font-size: 4vw;
+	margin: 0px 0px 0px 0px; /*top-rigtt-bottom-left*/
 	cursor: pointer;
 	font-family: Verdana, Geneva, sans-serif;
+	width: 16vw;
 	/* width: 20%; */
 	/* position: absolute; */
 	/* bottom: 10px; */
@@ -21,14 +22,18 @@
 
 
 div.bottomNavBarParentDiv {
-  width: 250px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
+	width: 250px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
 }
 
 .bottomNavBarButtonSelected {
 	color: red;
 	/* font-weight: bold; */
+}
+
+.bottomNavBarButtonIcon {
+	width: 5vw;
 }
 
 table{
