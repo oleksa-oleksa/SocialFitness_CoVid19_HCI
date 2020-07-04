@@ -141,10 +141,7 @@
 
 		    </div>
 		    <div class="modal-footer">
-		    <div class="popup" onclick="myFunction()">
-		      <a href="#" id="myBtn" class="buttonSecondary"">Add Friends</a><br>
-		      <span class="popuptext" id="myPopup">Online friends added into training. Offline friends got a push notificaion. Happy training!</span>
-		  </div>
+		      <a href="#" id="closeBtn" class="buttonSecondary">Add Friends!</a><br>
 		    </div>
 		  </div>
 		</div>
@@ -213,6 +210,9 @@
 		// Get the button that opens the modal
 		var btn = document.getElementById("myBtn");
 
+		// Get the button that opens the modal
+		var btnclose = document.getElementById("closeBtn");
+
 		// Get the <span> element that closes the modal
 		var span = document.getElementsByClassName("close")[0];
 
@@ -223,6 +223,11 @@
 
 		// When the user clicks on <span> (x), close the modal
 		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		btnclose.onclick = function() {
 		  modal.style.display = "none";
 		}
 
