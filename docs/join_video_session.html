@@ -6,6 +6,10 @@
 		<link rel="stylesheet" type="text/css" href="css/bottomNavBar.css">
 		<link rel="stylesheet" type="text/css" href="css/login.css">
 		<link rel="stylesheet" type="text/css" href="css/text.css">
+		<link rel="stylesheet" type="text/css" href="css/popup.css">
+		<link rel="stylesheet" type="text/css" href="css/table.css">
+
+
     </head>
     <body>
 		<center>
@@ -17,8 +21,131 @@
 		<p class="courseTitle">Friends ready to join: 3</p>
 		<center>
 		<div style="height:5vw"></div>
-		<a href="#" class="buttonSecondary">Add Friends</a><br>
+		<a href="#" id="myBtn" class="buttonSecondary">Add Friends</a><br>
 		<div style="height:5vw"></div>
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <div class="modal-header">
+		      <span class="close">&times;</span>
+		      <h2>Modal Header</h2>
+		    </div>
+		    <div class="modal-body">
+		      
+		    	<center>
+		    		<div class="Table">
+    <div class="Row">
+    	<div class="Cell">
+  			<input type="checkbox" class="largerCheckbox" name="checkBox2" > 
+        </div>
+        <div class="Cell">
+            <a href="#" style="text-decoration: none;">
+        		<img img id="friends_list_page" src="img/per01.jpeg" alt="Avatar">
+      		</a>
+        </div>
+        <div class="Cell">
+            <h1 class="title_friends_list">Karola Hanzl</h1>
+            <h5 style="padding-bottom: 0px;">karola_hanzl@gmbh_fzd..de</h5>
+        </div>    
+    </div>
+    <div class="Row">
+    	<div class="Cell">
+  			<input type="checkbox" class="largerCheckbox" name="checkBox2"> 
+        </div>
+        <div class="Cell">
+            <a href="#" style="text-decoration: none;">
+        		<img img id="friends_list_page" src="img/per02.jpeg" alt="Avatar">
+      		</a>
+        </div>
+        <div class="Cell">
+            <h1 class="title_friends_list">Meng Luoyang</h1>
+            <h5 style="padding-bottom: 0px;">meng_meng@gmail.com</h5>
+        </div>
+	</div>
+	<div class="Row">
+    	<div class="Cell">
+  			<input type="checkbox" class="largerCheckbox" name="checkBox2" > 
+        </div>
+        <div class="Cell">
+            <a href="#" style="text-decoration: none;">
+        		<img img id="friends_list_page" src="img/per03.jpeg" alt="Avatar">
+      		</a>
+        </div>
+        <div class="Cell">
+            <h1 class="title_friends_list">Eva Dobertachman</h1>
+            <h5 style="padding-bottom: 0px;">alice_ali@fu-berlin.de</h5>
+        </div>    
+    </div>
+    <div class="Row">
+    	<div class="Cell">
+  			<input type="checkbox" class="largerCheckbox" name="checkBox2" > 
+        </div>
+        <div class="Cell">
+            <a href="#" style="text-decoration: none;">
+        		<img img id="friends_list_page" src="img/per04.jpeg" alt="Avatar">
+      		</a>
+        </div>
+        <div class="Cell">
+            <h1 class="title_friends_list">Hanna Eckhardt</h1>
+            <h5 style="padding-bottom: 0px;">hanna89@zedat.fu-berlin.de</h5>
+        </div>    
+    </div>
+    <div class="Row">
+    	<div class="Cell">
+  			<input type="checkbox" class="largerCheckbox" name="checkBox2" > 
+        </div>
+        <div class="Cell">
+            <a href="#" style="text-decoration: none;">
+        		<img img id="friends_list_page" src="img/per05.jpeg" alt="Avatar">
+      		</a>
+        </div>
+        <div class="Cell">
+            <h1 class="title_friends_list">Alice Response</h1>
+            <h5 style="padding-bottom: 0px;">alicaandme1@fu-berlin.de</h5>
+        </div>    
+    </div>
+    <div class="Row">
+    	<div class="Cell">
+  			<input type="checkbox" class="largerCheckbox" name="checkBox2" > 
+        </div>
+        <div class="Cell">
+            <a href="#" style="text-decoration: none;">
+        		<img img id="friends_list_page" src="img/per06.jpeg" alt="Avatar">
+      		</a>
+        </div>
+        <div class="Cell">
+            <h1 class="title_friends_list">Jochen Feldmeier</h1>
+            <h5 style="padding-bottom: 0px;">Jochen@fu-berlin.de</h5>
+
+        </div>    
+    </div>
+    <div class="Row">
+    	<div class="Cell">
+  			<input type="checkbox" class="largerCheckbox" name="checkBox2" > 
+        </div>
+        <div class="Cell">
+            <a href="#" style="text-decoration: none;">
+        		<img img id="friends_list_page" src="img/per07.jpeg" alt="Avatar">
+      		</a>
+        </div>
+        <div class="Cell">
+            <h1 class="title_friends_list">Rudi Heldermann</h1>
+            <h5 style="padding-bottom: 0px;">Jochen@fu-berlin.de</h5>
+        </div>    
+    </div>
+		    	</center>
+
+
+		    </div>
+		    <div class="modal-footer">
+		      <h3>Modal Footer</h3>
+		    </div>
+		  </div>
+		</div>
+
 		<a href="training_with_video.html" class="buttonPrimary">Join</a>			
 		</center>
 
@@ -75,5 +202,33 @@
 				</tr>
 			</table>
 		</div>
+
+		<script>
+		// Get the modal
+		var modal = document.getElementById("myModal");
+
+		// Get the button that opens the modal
+		var btn = document.getElementById("myBtn");
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks the button, open the modal 
+		btn.onclick = function() {
+		  modal.style.display = "block";
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+		</script>
     </body>
 </html>
