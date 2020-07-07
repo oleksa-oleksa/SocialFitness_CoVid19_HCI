@@ -35,6 +35,13 @@ body{
 	padding: 0px 0px 0px 10%; 
 }
 
+.categorieTitle{
+	font-family: Verdana, Geneva, sans-serif;
+	/*font-weight: bold;*/
+	font-size: 6.5vw;
+	padding: 0px 0px 0px 10%; 
+}
+
 .courseThumbnailText{
 	font-family: Verdana, Geneva, sans-serif;
 	/*font-weight: bold;*/
